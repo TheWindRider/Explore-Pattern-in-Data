@@ -5,7 +5,7 @@ library(tourr)
 library(fitdistrplus)
 
 # Load Dataset
-data_dir <- "C:/Users/Chenguang/Workspace/Challenges/data_dist/data_set.txt"
+data_dir <- "C:/Users/Chenguang/Workspace/Challenges/Apple/data_set.txt"
 data_set <- read.table(data_dir, quote="\"", comment.char="")
 
 # Pair-wise Plotting
